@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "@leafgard/csv2html@2.0.0",
+      "/Users/shamsudeenyusuf/Workspace/Bloco/backend"
+    ]
+  ],
+  "_from": "@leafgard/csv2html@2.0.0",
+  "_id": "@leafgard/csv2html@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RNcc4iunA9bTbmsQ8q6iFZ1KOFXQAjm12pOqz3QtC/pzKOKwflXQjwTTaATX+d69cdBJ5CDjPeFjWwz/jIGb1A==",
+  "_location": "/@leafgard/csv2html",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@leafgard/csv2html@2.0.0",
+    "name": "@leafgard/csv2html",
+    "escapedName": "@leafgard%2fcsv2html",
+    "scope": "@leafgard",
+    "rawSpec": "2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@leafgard/csv2html/-/csv2html-2.0.0.tgz",
+  "_spec": "2.0.0",
+  "_where": "/Users/shamsudeenyusuf/Workspace/Bloco/backend",
+  "author": {
+    "name": "Yann SEGET",
+    "email": "dev@leafgard.fr"
+  },
+  "bin": {
+    "csv2html": "bin/global-index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Leafgard/csv2html/issues"
+  },
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "description": "Easy and fast Node.JS package / cli for CSV to HTML conversion",
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "jest": "^24.5.0"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "homepage": "https://github.com/Leafgard/csv2html#readme",
+  "keywords": [
+    "csv",
+    "html",
+    "csvtohtml",
+    "converter",
+    "filesystem",
+    "cli",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "main": "dist/index",
+  "name": "@leafgard/csv2html",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leafgard/csv2html.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "types": "dist/index",
+  "version": "2.0.0"
+}
